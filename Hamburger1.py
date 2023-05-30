@@ -36,7 +36,8 @@ class Person:
 #Customer Class
 class Customer(Person):
    def __init__(self):
-       super().__init__()
+	#Here we are calling the super or parent function of 'Person'. The object 'Customer' will first run the constructor from the parent and then run its own
+       super().__init__() 
        self.order = Order()
 
 
