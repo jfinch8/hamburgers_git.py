@@ -2,6 +2,7 @@
 #Kyle Parkinson, Landon Webb, Joseph Christensen, Alexandra Mitchell, Braden Allfrey, Jenessa Finch
 #This program tracks 100 orders of customers that enter your hamburger restaurant and displays the total hamburgers each customer eats next to their name
  
+#Importing random allows the program to use the random function to generate a customer name. 	
 import random
 
 
