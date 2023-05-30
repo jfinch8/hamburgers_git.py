@@ -3,7 +3,7 @@
 #This program tracks 100 orders of customers that enter your hamburger restaurant and displays the total hamburgers each customer eats next to their name
  
 import random
-hi guys
+
 
 #Order Class
 class Order:
