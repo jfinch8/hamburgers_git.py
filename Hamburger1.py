@@ -47,11 +47,11 @@ customerDict = {} #This is setting this variable as a dictionary
 
 iCustomer = 100 #variable used for the range in the loop function
 
-
+#for loop that will create the customer instance objects, add them to the dictionary list
 for iCount in range (0, iCustomer):
    customer = Customer()
    customerQueue.append(customer)
-   customerQueue.pop(0)
+   customerQueue.pop(0) #This pop function removes the first customer after they have moved through the queue
    if customer.customer_name in customerDict:
        customerDict[customer.customer_name] += customer.order.burger_count
    else:
