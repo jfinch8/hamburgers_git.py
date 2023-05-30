@@ -5,8 +5,6 @@
 import random
 
 
-
-
 #Order Class
 class Order:
    def __init__(self):
@@ -17,8 +15,6 @@ class Order:
 #Method to generate random number of burgers ordered.
    def randomBurgers(self):
        return random.randint(1, 20)
-
-
 
 
 #Person Class
@@ -62,9 +58,8 @@ for iCount in range (0, iCustomer):
 
   
 
-
+#This creates a lambda function in order to sort the customers from the greatest number of burgers purchased to the fewest. 
 listSortedCustomers = sorted(customerDict.items(), key=lambda x: x[1], reverse=True)
-
 
 
 
