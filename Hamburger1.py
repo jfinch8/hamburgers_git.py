@@ -45,7 +45,7 @@ customerQueue = [] #This is setting this variable as a list
 customerDict = {} #This is setting this variable as a dictionary
 
 
-iCustomer = 100
+iCustomer = 100 #variable used for the range in the loop function
 
 
 for iCount in range (0, iCustomer):
