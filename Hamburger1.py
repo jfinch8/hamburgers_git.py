@@ -41,8 +41,8 @@ class Customer(Person):
        self.order = Order()
 
 
-customerQueue = []
-customerDict = {}
+customerQueue = [] #This is setting this variable as a list
+customerDict = {} #This is setting this variable as a dictionary
 
 
 iCustomer = 100
