@@ -1,4 +1,4 @@
-#Team 8
+#Team 7
 #Kyle Parkinson, Landon Webb, Joseph Christensen, Alexandra Mitchell, Braden Allfrey, Jenessa Finch
 #This program tracks 100 orders of customers that enter your hamburger restaurant and displays the total hamburgers each customer eats next to their name
  
