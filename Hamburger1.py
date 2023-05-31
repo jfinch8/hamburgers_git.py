@@ -68,6 +68,4 @@ listSortedCustomers = sorted(customerDict.items(), key=lambda x: x[1], reverse=T
 for customer in listSortedCustomers:
    print(customer[0].ljust(19), customer[1])
 
-#Boom bob is your uncle
-
 
