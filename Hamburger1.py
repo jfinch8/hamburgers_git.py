@@ -52,6 +52,8 @@ for iCount in range (0, iCustomer):
    customer = Customer()
    customerQueue.append(customer)
    customerQueue.pop(0) #This pop function removes the first customer after they have moved through the queue
+#Here the dictionary is adding the hamburger total to each of the random name
+#If the name has alrady showed up, it would add the quantity to that total, if not, it will create that name as an option and then add the total. 
    if customer.customer_name in customerDict:
        customerDict[customer.customer_name] += customer.order.burger_count
    else:
