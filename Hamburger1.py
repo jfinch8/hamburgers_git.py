@@ -18,7 +18,7 @@ class Order:
        return random.randint(1, 20)
 
 
-#Person Class
+#Person Class (Parent)
 class Person:
    def __init__(self):
 	#instance variable created from the random name method.
@@ -33,7 +33,7 @@ class Person:
 
 
 
-#Customer Class
+#Customer Class (Child)
 class Customer(Person):
    def __init__(self):
 	#Here we are calling the super or parent function of 'Person'. The object 'Customer' will first run the constructor from the parent and then run its own
@@ -47,7 +47,7 @@ customerDict = {} #This is setting this variable as a dictionary
 
 iCustomer = 100 #variable used for the range in the loop function
 
-#for loop that will create the customer instance objects, add them to the dictionary list
+#for loop that will create the customer instance objects, add them to the customerQueue.
 for iCount in range (0, iCustomer):
    customer = Customer()
    customerQueue.append(customer)
