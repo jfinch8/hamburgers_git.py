@@ -66,7 +66,7 @@ for iCount in range (0, iCustomer):
 listSortedCustomers = sorted(customerDict.items(), key=lambda x: x[1], reverse=True)
 
 
-
+#Prints out the list of customers in the sorted order
 for customer in listSortedCustomers:
    print(customer[0].ljust(19), customer[1])
 
